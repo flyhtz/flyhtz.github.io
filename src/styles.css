@@ -1,0 +1,153 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  height: 360px;
+  background-color: rgb(41, 55, 68);
+  border: solid black 1px;
+}
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.upper {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: white;
+  font-size: 43px;
+}
+
+footer {
+  height: 160px;
+  background-color: black;
+  color: white;
+}
+
+.footer-text {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.website-link {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  font-size: 30px;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  padding-right: 40px;
+}
+
+li {
+  /* width: 200px; */
+  text-decoration: none;
+}
+
+.upper-text-area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.upper-text {
+  margin-left: 70px; /*i hate text touching the sides it makes me angry and want to kill people */
+  margin-bottom: 300px;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 140px;
+  color: black;
+  padding: 5px;
+  padding-inline: 20px;
+}
+
+.button:hover {
+  background-color: rgb(205, 205, 205);
+}
+
+.button:active {
+  background-color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
+}
+
+.logo {
+  height: 80px;
+  margin: 30px;
+}
+
+.sub-sec {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.sub-sec-2-text {
+  padding: 20px;
+}
+
+.button2 {
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.button2:hover {
+  background-color: rgb(205, 205, 205);
+}
+
+.button2:active {
+  background-color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
+}
+
+.personal-information {
+  display: flex;
+}
+
+.personal-information-text {
+  margin-left: 20px;
+}
+
+.selfie {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* vertical-align: middle; */
+}
