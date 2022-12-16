@@ -38,6 +38,7 @@ footer {
   height: 160px;
   background-color: black;
   color: white;
+  margin: -1px;
 }
 
 .footer-text {
@@ -141,17 +142,43 @@ li {
   color: rgb(128, 128, 128);
 }
 
-.personal-information {
-  display: flex;
-}
-
-.personal-information-text {
-  margin-left: 20px;
-}
-
 .selfie {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   /* vertical-align: middle; */
+}
+
+.projects {
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(41, 55, 68);
+  margin: -1px;
+}
+
+.project-card {
+  width: 320px;
+  height: 300px;
+  box-shadow: 5px 5px 20px;
+  background-color: rgb(61,75,88)
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-text {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-color: black;
 }
