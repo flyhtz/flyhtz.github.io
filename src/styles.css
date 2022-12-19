@@ -156,7 +156,7 @@ li {
   background-color: rgb(41, 55, 68);
   margin: -1px;
   height: auto;
-  position: relative;
+  padding-bottom: 200px;
 }
 
 .project-card {
@@ -166,10 +166,11 @@ li {
   background-color: rgb(61,75,88);
   padding-bottom: 70px;
   margin: 10px;
+  position: relative;
 }
 
 .project-link {
-  position: absolute; bottom: 60px; margin: auto; padding-left: 7%;
+  position: absolute; bottom: 10px; margin: auto; width: 100%;
 }
 
 .project-container {
