@@ -115,11 +115,12 @@ li {
 }
 
 .sub-sec-2 {
-  /* justify-content: space-around; */
+  height: auto;
+  padding-bottom: 60px;
 }
 
 .sub-sec-2-text {
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
 }
 
@@ -154,13 +155,21 @@ li {
   padding: 40px;
   background-color: rgb(41, 55, 68);
   margin: -1px;
+  height: auto;
+  position: relative;
 }
 
 .project-card {
   width: 320px;
-  height: 300px;
+  height: auto;
   box-shadow: 5px 5px 20px;
-  background-color: rgb(61,75,88)
+  background-color: rgb(61,75,88);
+  padding-bottom: 70px;
+  margin: 10px;
+}
+
+.project-link {
+  position: absolute; bottom: 60px; margin: auto; padding-left: 7%;
 }
 
 .project-container {
@@ -181,4 +190,13 @@ hr {
   margin-left: 20px;
   margin-right: 20px;
   border-color: black;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.statistics-text {
+  margin: 20px;
 }
