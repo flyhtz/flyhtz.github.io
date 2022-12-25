@@ -114,6 +114,8 @@ li {
 .sub-sec {
   display: flex;
   padding: 20px;
+  height: auto;
+  padding-bottom: 30px;
 }
 
 .sub-sec-2 {
