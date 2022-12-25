@@ -35,10 +35,9 @@ a {
 }
 
 footer {
-  height: 160px;
+  height: auto;
   background-color: black;
   color: white;
-  margin: -1px;
 }
 
 .footer-text {
@@ -88,7 +87,7 @@ li {
   text-align: center;
   border-radius: 30px;
   font-weight: 400;
-  margin-left: 140px;
+  margin-left: 40px;
   color: black;
   padding: 5px;
   padding-inline: 20px;
@@ -204,7 +203,7 @@ hr {
 
 .statistics::before {
   content: "";
-  background-image: url('https://www.osfhealthcare.org/blog/wp-content/uploads/2019/05/choi-autism-ft5-765x310.jpg');
+  background-image: url('https://imgs.search.brave.com/bMo5uiPnDXmIzrotnTbW3dVCBsIcej2mYayZH4NPVKE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDMwOTg4/NjAuanBn');
   position: absolute;
   top: 0px;
   right: 0px;
@@ -219,6 +218,5 @@ hr {
   position: relative;
   color: #ffffff;  
   font-size: 14rem;
-  line-height: 0.9;
   text-align: left;
 }
