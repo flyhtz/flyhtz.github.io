@@ -1,7 +1,7 @@
 var before = document.getElementById("before");
 var liner = document.getElementById("liner");
-var command = document.getElementById("typer"); 
-var textarea = document.getElementById("texter"); 
+var command = document.getElementById("typer");
+var textarea = document.getElementById("texter");
 var terminal = document.getElementById("terminal");
 
 var git = 0;
@@ -9,7 +9,7 @@ var pw = false;
 let pwd = false;
 var commands = [];
 
-setTimeout(function() {
+setTimeout(function () {
   loopLines(banner, "", 80);
   textarea.focus();
 }, 100);
@@ -55,7 +55,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("visitor@flyhtz.com:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("visitor@flyhtz.nl:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -94,9 +94,9 @@ function commander(cmd) {
       break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
-      setTimeout(function() {
+      setTimeout(function () {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-      }, 1000); 
+      }, 1000);
       break;
     case "social":
       loopLines(social, "color2 margin", 80);
@@ -117,7 +117,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "clear":
-      setTimeout(function() {
+      setTimeout(function () {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");
       }, 1);
@@ -145,7 +145,7 @@ function commander(cmd) {
 }
 
 function newTab(link) {
-  setTimeout(function() {
+  setTimeout(function () {
     window.open(link, "_blank");
   }, 500);
 }
@@ -160,7 +160,7 @@ function addLine(text, style, time) {
       t += text.charAt(i);
     }
   }
-  setTimeout(function() {
+  setTimeout(function () {
     var next = document.createElement("p");
     next.innerHTML = t;
     next.className = style;
@@ -172,7 +172,7 @@ function addLine(text, style, time) {
 }
 
 function loopLines(name, style, time) {
-  name.forEach(function(item, index) {
+  name.forEach(function (item, index) {
     addLine(item, style, index * time);
   });
 }
