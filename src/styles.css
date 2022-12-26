@@ -122,7 +122,6 @@ li {
 .socials {
   height: auto;
   padding-bottom: 60px;
-
   position: relative; 
   justify-content: center;
 }
@@ -140,7 +139,6 @@ li {
 }
 
 .socials-text {
-  /* padding: 20px; */
   text-align: center;
 }
 
