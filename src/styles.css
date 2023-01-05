@@ -219,3 +219,13 @@ hr {
   margin: 20px;
   padding-bottom: 20px;
 }
+
+.uploads {
+  height: fit-content;
+  text-align: center;
+}
+
+.video {
+  width: 33%;
+  height: 315px;
+}
