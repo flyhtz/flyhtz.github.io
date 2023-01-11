@@ -201,6 +201,7 @@ hr {
   bottom: 0px;
   left: 0px;
   opacity: 0.3;
+  background-position: 0px -250px;
 }
 
 .statistics {
