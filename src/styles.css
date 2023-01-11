@@ -122,20 +122,7 @@ li {
 .socials {
   height: auto;
   padding-bottom: 60px;
-  position: relative; 
   justify-content: center;
-}
-
-.socials::before {
-  content: "";
-  background-image: url('https://imgs.search.brave.com/bMo5uiPnDXmIzrotnTbW3dVCBsIcej2mYayZH4NPVKE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDMwOTg4/NjAuanBn');
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.3;
-  background-position: 0px -180px;
 }
 
 .socials-text {
@@ -204,8 +191,24 @@ hr {
   border-color: black;
 }
 
+.statistics::before {    
+  content: "";
+  background-image: url('https://imgs.search.brave.com/bMo5uiPnDXmIzrotnTbW3dVCBsIcej2mYayZH4NPVKE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDMwOTg4/NjAuanBn');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
 .statistics {
   height: auto;
+  position: relative; 
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .stats-imgs {
