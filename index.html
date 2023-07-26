@@ -850,36 +850,31 @@ My primary focus has been on embracing ethical coding practices and contributing
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+<article class="contact" data-page="contact">
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+  <section class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/myyqzaeq" method="post" class="form" data-form>
+      <div class="input-wrapper">
+        <input type="text" name="name" id="full-name" class="form-input" placeholder="Full name" required data-form-input>
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+        <input type="email" name="email" id="email-address" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
 
-        <section class="contact-form">
+      <textarea rows="5" name="message" id="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-          <h3 class="h3 form-title">Contact Form (don't work, prolly wont ever work)</h3>
+      <!--<input type="hidden" name="_subject" id="email-subject" value="flyhtz.nl"> can use this later but I dont think I'll ever use other forms lol.--> 
 
-          <form action="#" class="form" data-form>
+      <button class="form-btn" type="submit" data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+    </form>
+  </section>
+</article>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
 
     </div>
 
