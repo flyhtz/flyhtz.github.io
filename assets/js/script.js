@@ -157,3 +157,21 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// Image-based "Contact" button functionality (pain in the ass)
+const contactBtns = document.querySelectorAll(".contactBtn");
+
+contactBtns.forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    for (let i = 0; i < navigationLinks.length; i++) {
+      if (navigationLinks[i].innerHTML.toLowerCase() === "contact") {
+        pages[i].classList.add("active");
+        navigationLinks[i].classList.add("active");
+        window.scrollTo(0, 0);
+      } else {
+        pages[i].classList.remove("active");
+        navigationLinks[i].classList.remove("active");
+      }
+    }
+  });
+});
